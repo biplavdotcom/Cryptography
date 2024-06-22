@@ -33,7 +33,7 @@ def miller_rabin(n, k):
     
     return True
 
-n = 561  
+n = 341   
 k = 5    
 result = miller_rabin(n, k)
 print(f"{n} is {'probably prime' if result else 'composite'}")
